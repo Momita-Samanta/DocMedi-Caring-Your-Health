@@ -1,0 +1,153 @@
+@media(max-width:768px) {
+    .quick-links {
+      margin-left: 0 !important;
+      padding: 0 !important;
+    }
+    .footer-hr{
+      margin-top: 100px !important;
+    }
+  }
+  
+  .footer1 {
+    z-index: 99;
+    width: 100%;
+    background: #11654c56 !important;
+  
+  }
+  
+  
+  /* site map */
+  .quick-links li {
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: start;
+  
+  
+  }
+  
+  .quick-links li a {
+    /* text-align:center; */
+    text-decoration: none;
+    color: #0a0a0a;
+    text-indent: 0px;
+    /* text-align: left; */
+  }
+  
+  
+  /* newsletter */
+  @media(max-width:540px) {
+    .quick-links {
+      margin: 0 !important;
+    }
+  }
+  
+  .subscribe-email {
+    font: 19px "Open Sans", Helvetica, Arial, Sans-serif;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px #000;
+  }
+  
+  /* .page {
+    width: 500px;
+    margin: 50px auto 0;
+  } */
+  
+  .newsletter .subscribe-email,
+  .newsletter .subscribe-email:focus {
+    padding: 10px 13px;
+    border: 0;
+    outline: 0;
+  }
+  
+  .newsletter .subscribe-email[type="email"] {
+    margin-right: 15px;
+    width: 300px;
+    color: #a09f9f;
+  }
+  
+  .newsletter .subscribe-email[type="submit"] {
+    padding: 10px 15px;
+    color: #c0d6db;
+    background: #427b89;
+    text-shadow: 0 2px 2px #333;
+    box-shadow: inset 0 0 0 transparent;
+    background: #508f9f;
+    background: linear-gradient(to bottom, #508f9f 0%, #346976 100%);
+    transition: all .3s ease-in-out;
+  }
+  
+  .newsletter .subscribe-email[type="submit"]:hover,
+  form .subscribe-email[type="submit"]:focus {
+    box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.3),
+      0 0 10px rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-left: 10px;
+  }
+  
+  /* social icons */
+  .social {
+    position: absolute;
+    /* top:50%; 
+    left:50%;
+    transform: translate(-50%, -50%); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social li {
+    list-style: none;
+  }
+  
+  .social li a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .3s;
+  }
+  
+  .social li a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+  
+  .social li a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .social li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+  }
+  
+  .social li:nth-child(2) a:hover .fab {
+    color: #00aced;
+  }
+  
+  .social li:nth-child(3) a:hover .fab {
+    color: #dd4b39;
+  }
+  
+  .social li:nth-child(4) a:hover .fab {
+    color: #007bb6;
+  }
+  
+  .social li:nth-child(5) a:hover .fab {
+    color: #e4405f;
+  }
